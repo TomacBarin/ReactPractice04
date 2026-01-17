@@ -5,6 +5,7 @@ export default function WelcomMessage(props) {
             <p>Jag befinner mig i {props.stad}</p>
             <p>På morgonen äter jag {props.breakfast}</p>
             <p>Extra notis: {props.extraMessage}</p>
+            <p>{props.lastProp} Eller så inte.</p>
         </section>
     )
 }
